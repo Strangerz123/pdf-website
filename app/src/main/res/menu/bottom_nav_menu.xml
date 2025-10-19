@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:title="@string/dashboard" />
+    <item
+        android:id="@+id/hardwareFragment"
+        android:title="@string/hardware" />
+    <item
+        android:id="@+id/sensorsFragment"
+        android:title="@string/sensors" />
+    <item
+        android:id="@+id/testsFragment"
+        android:title="@string/tests" />
+</menu>

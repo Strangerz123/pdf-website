@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Phone Info</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="hardware">Hardware</string>
+    <string name="sensors">Sensors</string>
+    <string name="tests">Tests</string>
+    <string name="cpu">CPU</string>
+    <string name="ram">RAM</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="battery">Battery</string>
+    <string name="usage_na">Usage: N/A</string>
+    <string name="level_na">Level: N/A</string>
+    <string name="display_test">Display Test</string>
+    <string name="flashlight_test">Flashlight Test</string>
+    <string name="usage">Usage: %s</string>
+    <string name="level">Level: %s</string>
+    <string name="ram_usage">%1$s MB / %2$s MB</string>
+    <string name="storage_usage">%1$s GB / %2$s GB</string>
+    <string name="cpu_usage">%s%%</string>
+    <string name="battery_level">%s%%</string>
+</resources>

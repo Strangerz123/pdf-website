@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.phoneinfo.ui.dashboard.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/hardwareFragment"
+        android:name="com.example.phoneinfo.ui.hardware.HardwareFragment"
+        android:label="fragment_hardware"
+        tools:layout="@layout/fragment_hardware" />
+    <fragment
+        android:id="@+id/sensorsFragment"
+        android:name="com.example.phoneinfo.ui.sensors.SensorsFragment"
+        android:label="fragment_sensors"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/testsFragment"
+        android:name="com.example.phoneinfo.ui.tests.TestsFragment"
+        android:label="fragment_tests"
+        tools:layout="@layout/fragment_tests" />
+</navigation>
